@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SudokuApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="Sudoku" Height="450" Width="800">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Debug">
+                <MenuItem Header="One ceil">
+                    <MenuItem Header="Create" Click="CreateOneCeil_Click"/>
+                    <MenuItem Header="Set focus" Click="SetFocus_Click"/>
+                </MenuItem>
+                <MenuItem Header="One block">
+                    <MenuItem Header="Create" Click="CreateOneBlock_Click"/>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <ContentControl x:Name="CC"/>
+    </DockPanel>
 </Window>

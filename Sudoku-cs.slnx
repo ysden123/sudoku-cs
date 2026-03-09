@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Backtracking.docx" />
+    <File Path="README.md" />
+    <File Path="Три правила Судоку.docx" />
+  </Folder>
   <Project Path="SudokuApp/SudokuApp.csproj" />
   <Project Path="TestSudoku/TestSudoku.csproj" />
 </Solution>
